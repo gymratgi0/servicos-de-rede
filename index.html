@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="stiles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços de rede</title>
+</head>
+<body class="corpo">
+    <h1 class="h1">SERVIÇOS DE REDE</h1>
+    
+    <div class="div">
+        <h2 class="h2">MODELO OSI</h2>
+        <p class="paragrafo">O modelo de <font color=blue>interconexão de sistemas abertos (OSI)</font> é um modelo conceitual criado pela Organização Internacional de Normalização que permite que diversos sistemas de comunicação se comuniquem usando protocolos padronizados.</p>
+        <p class="paragrafo">O OSI fornece um padrão para que diferentes sistemas de computadores possam se comunicar. O modelo OSI pode ser considerado a linguagem universal da rede de computadores. Ele se baseia no conceito de dividir um sistema de comunicação em sete camadas abstratas, empilhadas umas sobre as outras. Cada camada do modelo OSI lida com uma tarefa específica e se comunica com as camadas acima e abaixo dela. </p>
+        <center><img src="7camadas.png" width="380px" height="280"></center>
+    </div>
+    
+    <div class="div">
+        <h2 class="h2">MODELO TCP/IP</h2>
+        <p class="paragrafo">O <font color=blue>TCP/IP</font> é fundamental para a rede de internet. Esses dois protocolos garantem que pacotes de informações cheguem a seu destino de forma correta e segura. Dessa forma, conseguimos tratar e definir os dados entre os dispositivos antes de alcançarem seus destinos.</p>
+        <p class="paragrafo">Quando falamos de <font color=blue>TCP</font>, nos referimos a algo que faz toda a definição de como aplicações conseguem criar canais de comunicação através da rede. Também auxilia na quebra em pedaços de uma mensagem que será posteriormente reconstruída antes de chegar a seu destino.</p>
+        <p class="paragrafo">Já o <font color=blue>IP</font> é o que define o endereço e o caminho do pacote de dados, ou seja, ele garante que as informações cheguem a seu destino correto. Ele é basicamente o “carteiro”, que recebe o item e o checa para ter certeza de que estará no local de seu objetivo.</p>
+    </div>
+
+    <div class="div">
+        <h2 class="h2">UDP</h2>
+        <p class="paragrafo">O <font color=blue>User Datagram Protocol (UDP)</font> é um protocolo de Internet mais simples e sem conexão, no qual os serviços de verificação e recuperação de erros não são necessários. Com o UDP, não há sobrecarga para abrir, manter ou encerrar uma conexão — os dados são continuamente enviados para o destinatário, quer ele os receba ou não.</p>
+        <p class="paragrafo">O protocolo UDP funciona de forma semelhante ao TCP, mas elimina todo o material de verificação de erros. Toda a comunicação de ida e volta introduz latência, tornando as coisas mais lentas. É usado quando a velocidade é desejável e a correção de erros não é necessária. Por exemplo, ele é frequentemente usado para transmissões ao vivo e jogos online.</p>
+    </div>
+
+    <div class="div">
+        <h2 class="h2">FTP</h2>
+        <p class="paragrafo">O <font color=blue>FTP</font> é um antigo protocolo de transferência de arquivos entre computadores em redes locais ou na internet, sendo bastante usado por sistemas de hospedagem de sites. No entanto, ele é considerado inseguro para os padrões de hoje e navegadores modernos estão abandonando o suporte. Basicamente, permite a troca de arquivos entre dois computadores de modo direto, em que um ganha acesso às pastas do outro.</p>
+        <p class="paragrafo">O FTP usa um servidor como o computador responsável por hospedar os arquivos. O cliente é o usuário que fará o acesso. A conexão é sempre autenticada com nome de usuário e senha, enquanto o servidor é geralmente acessado por um endereço de IP.</p>
+    </div>
+
+    <div class="div">
+        <h2 class="h2">DNS</h2>
+        <p class="paragrafo">O <font color=blue>DNS</font> é uma sigla para sistema de nomes de domínio. Contém uma lista de nomes de domínio e permite que usuários encontrem uma página por meio desses nomes. É fundamental para o funcionamento da internet, para otimizar o desempenho e a segurança de um site.</p>
+        <p class="paragrafo">O domínio é o nome do site (rockcontent.com, por exemplo), e o servidor de nomes armazena um conjunto deles.</p>
+    </div> 
+    
+    <div class="div">
+        <h2 class="h2">DHCP</h2>
+        <p class="paragrafo">O protocolo <font color=blue>DHCP</font>, é um protocolo utilizado em redes de computadores que permite às máquinas obterem um endereço IP automaticamente. Por meio dele um servidor é capaz de distribuir automaticamente endereços de IP diferentes a todos os computadores à medida que eles fazem a solicitação de conexão com a rede. Essa distribuição dos IPs é feita em um intervalo pré-definido configurado no servidor. Sempre que uma das máquinas for desconectada o IP ficará livre para o uso em outra.</p>
+    </div>
+
+    <div class="div">
+        <h2 class="h2">HTTP/HTTPS</h2>
+        <p class="paragrafo">O protocolo de <font color=blue>transferência de hipertexto (HTTP – HyperText Transfer Protocol)</font> é o protocolo padrão para a web. Por meio dele os navegadores requisitam as páginas da web e as recebem. Dessa forma, o HTTP define como são requisitadas as páginas da web, como são enviados os dados que o usuário insere em formulários e como o servidor envia mensagens de erro para o navegador do usuário.</p>
+        <p class="paragrafo">Como o HTTP é um protocolo baseado em texto, os dados do usuário e do servidor podem ser interceptados ou alterados no meio do caminho. Nesse contexto, um usuário na rede pode interceptar os seus dados e lê-los ou, pior, alterar a página que você recebe ou a informação que envia para o servidor.</p>
+        <p class="paragrafo">A maioria das explicações resume o <font color=blue>HTTPS</font> como um HTTP com o SSL (Secure Sockets Layer) ou, seu sucessor, o TLS (Transport Layer Security). TLS ou SSL são camadas de segurança que fornecem confidencialidade e integridade.</p>
+        <p class="paragrafo">Com o uso do HTTPS, que é o HTTP seguro, adiciona-se alguns princípios de segurança, como confidencialidade, integridade e autenticação. Por confidencialidade, entende-se que a mensagem só é lida pelo destinatário real da mensagem. A integridade representa que a mensagem não foi alterada e o princípio da autenticação prova que o servidor é realmente quem diz ser.</p> 
+    </div>
+
+    <div class="div">
+        <h2 class="h2">WEBSERVER</h2>
+        <p class="paragrafo">Um <font color=blue>web server</font> é um sistema computacional que hospeda e fornece acesso aos conteúdos e aplicações através da internet. Geralmente contratado como um serviço, esse servidor recebe e processa as solicitações feitas por navegadores através de protocolos de rede como o HTTP ou HTTPS. Um servidor que presta esse tipo de serviço pode ser um computador físico ou instância de um datacenter, que armazena e disponibiliza o conteúdo para ser acessado por meio da internet.</p>
+        <p class="paragrafo">Esse acesso geralmente é feito por computadores e dispositivos móveis através de solicitações feitas por browsers, ou seja, softwares navegadores como o Google Chrome e Microsoft Edge. Essas solicitações incluem o endereço do conteúdo desejado, como por exemplo uma página HTML, um arquivo de áudio, vídeo ou imagem.
+        <p class="paragrafo">Os servidores web são responsáveis por hospedar sites, aplicativos, serviços de e-mail, armazenamento em nuvem e outros serviços online.</p>
+    </div>
+
+</body>
+</html>
